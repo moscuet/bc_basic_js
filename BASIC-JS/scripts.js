@@ -35,5 +35,3 @@ switch(numberString){
         let probability = (1/2**5)*100
         console.log('Thanks for participating! its hard to win a jackpot always which has probablity only ' + probability + ' %')
     }
-
-    
