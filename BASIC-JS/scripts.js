@@ -25,18 +25,3 @@ else{
     console.log('Thanks for participating! its hard to win a Jackpot always which has probablity only ' + probability + ' %  but not impossible. Play Again!' )
 }
 
-
-/*
-// using switch statement
-switch(numberString){
-    case '11111':
-        console.log("congratulation!! You have won the Jackpot!!")
-        break;
-    case '00000' : 
-    console.log(' Goodluck for next time, Congrats for getting all 0')
-    break;
-    default:
-        let probability = (1/2**5)*100
-        console.log('Thanks for participating! its hard to win a jackpot always which has probablity only ' + probability + ' %')
-    }
-*/
