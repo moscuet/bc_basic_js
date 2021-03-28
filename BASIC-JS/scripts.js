@@ -1,14 +1,12 @@
 
 
 //1. Create an **array of 5 elements**, each element is a random number of either 1 or 0
-//let randomNum = () => Math.random()>.5 ? 1 : 0
-// let randomArray = [ randomNum(), randomNum(), randomNum(), randomNum(), randomNum()]
 
 let randomizedRange = 2
 let randomNum = () => Math.floor( Math.random()*randomizedRange)
-
 let randomArray = []
 let counter = 0;
+
 while( counter <5){
     randomArray[counter] = randomNum()
     counter++
@@ -17,12 +15,13 @@ console.log('randomArray', randomArray)
 
 // 2. Create a while loop, that goes through each element in the array, check if they are 1 or 0
 //3. Also create a counter variable to keep track of the number of 1 and 0 values in the array
+
 let i = 0
 let countOne = 0
 let countZero = 0
-while(i<randomArray.length ){
 
-    if(randomArray[i]=== 0){
+while(i<randomArray.length ){
+   if(randomArray[i]=== 0){
         console.log('this array element is 1')
         countZero++
     }
